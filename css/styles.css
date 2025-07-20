@@ -296,9 +296,9 @@ footer img:hover{
         font-size: 25px;
     }
 
-    .nosotros .contenedor-parrafo,
+    .nosotros > div,
   .nosotros .contenedor-imagen {
-    width: 100% ;
+    width: 100% !important;
   }
 
   .servicios .contenedor-parrafo p{
@@ -316,9 +316,9 @@ footer img:hover{
     padding: 20px;
     flex-wrap: wrap;   
 }
-.servicios .contenedor-parrafo,
+.servicios > div,
   .contenedor-imagen {
-    width: 100%;
+    width: 100% !important;
     
   }
 }
