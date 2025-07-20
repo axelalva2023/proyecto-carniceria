@@ -282,8 +282,11 @@ footer img:hover{
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         flex-wrap: wrap;
+        
         
         
     }
@@ -297,8 +300,8 @@ footer img:hover{
     }
 
     .nosotros > div,
-  .nosotros .contenedor-imagen {
-    width: 100% !important;
+  .nosotros .contenedor-img {
+    width: 100%;
   }
 
   .servicios .contenedor-parrafo p{
@@ -313,12 +316,14 @@ footer img:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     flex-wrap: wrap;   
 }
 .servicios > div,
-  .contenedor-imagen {
-    width: 100% !important;
+  .servicios .contenedor-img {
+    width: 100%;
     
   }
 }
