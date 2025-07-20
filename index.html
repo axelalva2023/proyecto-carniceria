@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./img/corte-carne.jpg">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Carniceria - Don Carlos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary color-fondo">
+            <img src="./img/corte-carne.png" alt="logo de carniceria">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>¡Bienvenidos a carniceria Don Carlos!</h1>
+        </section>
+        <section class="nosotros">
+            <div class="contenedor-parrafo">
+            <h3>Nosotros:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem dicta laborum perspiciatis. Modi dolorum nihil saepe maxime, tenetur corporis facere ea nam amet illo quasi sapiente repellat eos recusandae.</p>
+        </div>
+            <div class="contenedor-img">
+            <img src="./img/nosotros.jpg" alt="img nosotros">
+            <p class="texto-sobre-img">
+                La mejor carne cortada. Creditos: Axel Alva
+            </p>
+        </div>
+        </section>
+        <section class="servicios">
+            <div class="contenedor-parrafo">
+                <h3>Servicios:</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem dicta laborum perspiciatis. Modi dolorum nihil saepe maxime, tenetur corporis facere ea nam amet illo quasi sapiente repellat eos recusandae.</p>
+            </div>
+                <div class="contenedor-img">
+                <img src="./img/servicios.jpg" alt="img-servicios">
+                <p class="texto-sobre-img">Comida en familia. Creditos: Axel Alva</p>
+            </div>
+        </section>
+        <section class="productos">
+            <h2>Productos:</h3>
+            <div class="productos-contenedor">
+            <div>
+                <img src="./img/cazuela.jpg" alt="img-cazuela">
+                <h3>Cazuela</h3>
+                <p>$500</p>
+                <a href="">Agregar al carrito</a>
+            </div>
+            <div>
+                <img src="./img/milanesa.jpg" alt="img-milanesa">
+                <h3>Milanesa</h3>
+                <p>$500</p>
+                <a href="">Agregar al carrito</a>
+            </div>
+            <div>
+                <img src="./img/polenta.jpg" alt="img-polenta">
+                <h3>Polenta</h3>
+                <p>$500</p>
+                <a href="">Agregar al carrito</a>
+            </div>
+        </div>
+
+        </section>
+        <section class="contacto">
+            <h3>Contacto:</h3>
+            <div class="contenedor-contacto">
+            <div class="contenedor-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.609157358958!2d-58.405731824770875!3d-34.614043458042815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae578934e3d%3A0x32a5e31a5f1e9476!2sSaavedra%20363%2C%20C1083ACG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1753023276754!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contenedor-formulario">
+            <form>
+                <div>
+                <label for="nombre">Nombre:
+                  <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </label>
+              </div>
+              <div>
+                <label for="email">Email:
+                  <input class="input-email" type="email" id="email" placeholder="Ingrese su email" required>
+                </label>
+              </div>
+              <div>
+                <label for="mensaje">Mensaje:
+                  <textarea name="" id="mensaje" cols="30" rows="5" placeholder="Escriba un mensaje" required></textarea>
+                </label>
+              </div>
+                <div class="button-container">
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+              </div>
+              </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logo-footer"> 
+        <img src="./img/corte-carne.png" alt="logo de pagina">
+    </div>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+        <ul class="enlaces">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="redes-sociales">
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+    </div>
+</footer>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

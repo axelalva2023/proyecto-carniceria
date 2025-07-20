@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header img{
+    width: 100px;
+    height: 80px;
+}
+.color-fondo{
+    background-color: #8A0000;
+}
+.nav-link{
+    font-weight: 100;
+    font-size: 20px;
+    color: #F8F5E9 !important;
+}
+
+.hero{
+    height: calc(100vh - 96px);
+    background-image: url(../img/corte-carne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    color: #F8F5E9;
+    font-size: 50px;
+}
+
+.nosotros .contenedor-img img{
+width: 100%;
+display: block;
+}
+
+
+.nosotros .contenedor-parrafo{
+    text-align: center;
+}
+.nosotros .contenedor-parrafo p{
+    font-size: 25px;
+}
+
+.nosotros .contenedor-parrafo h3{
+    font-size: 30px;
+}
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #C83F12;
+}
+
+.nosotros div{
+    width: 50%;
+}
+
+.nosotros .contenedor-img{
+    width: 500px;
+    position: relative;  /* ✅ evita que el texto se salga */
+}
+
+.nosotros .contenedor-img .texto-sobre-img{
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 20px;
+    background-color: #C83F12;
+}
+.servicios .contenedor-parrafo{
+    text-align: center;
+}
+.servicios .contenedor-parrafo p{
+    font-size: 25px;
+}
+
+.servicios .contenedor-parrafo h3{
+    font-size: 30px;
+}
+
+.servicios .contenedor-img img{
+    width: 100%;
+    display: block;
+}
+
+.servicios .contenedor-img{
+    width: 500px;
+    position: relative;
+}
+
+.servicios div{
+    width: 50%;
+}
+
+.servicios .contenedor-img .texto-sobre-img{
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: center;
+}
+
+.productos .productos-contenedor div img{
+    width: 100%;
+    display: block;
+}
+.productos .productos-contenedor div{
+    width: 307px;
+    height: 300px;
+    border: 2px red solid;
+    margin: 10px;
+    text-align: center;
+}
+
+.productos .productos-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos .productos-contenedor div p{
+    margin-bottom: 15px;
+}
+.productos .productos-contenedor div a{
+    background-color: black;
+    text-decoration: none;
+    color: #F8F5E9;
+    padding: 10px;
+}
+
+.productos h2{
+    text-align: center;
+    font-size: 30px;
+    background-color: #3B060A;
+    color: #F8F5E9;
+    padding: 20px;
+}
+
+.productos{
+    background-color: #C83F12;
+}
+.contacto{
+    background-color: #C83F12;
+}
+.contacto .contenedor-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.contacto .contenedor-contacto .contenedor-mapa iframe{
+    width: 100%;
+    display: block;
+}
+
+.contacto h3{
+text-align: center;
+font-size: 30px;
+background-color: #3B060A;
+color: #F8F5E9;
+padding: 20px;
+}
+
+.contacto .contenedor-contacto .contenedor-mapa{
+    width: 500px;
+}
+
+.contacto .contenedor-contacto .contenedor-formulario form{
+    background-color: #FFF287;
+    padding: 50px;
+    height: 400px;
+    border: 2px red solid;
+}
+.contacto .contenedor-contacto .contenedor-formulario input, textarea{
+   width: 100%;
+   display: block;
+}
+
+.contacto .contenedor-contacto .contenedor-formulario form .button-container{
+    text-align: center;
+ }
+
+ footer{
+    background-color: #FFF287;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+footer .logo-footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+footer ul{ 
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer ul li{ 
+    
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer img{
+    width: 100px;
+    transition: all 0.3s; 
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+
+.redes-sociales{
+    text-align: center;
+    color: black;
+}  
+.redes-sociales a{
+    text-decoration: none;
+    color: black;
+} 
+
+ .enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+
+}    
+
+.enlaces a{
+    text-decoration: none;
+    color:black
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
