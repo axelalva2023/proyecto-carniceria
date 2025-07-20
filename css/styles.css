@@ -276,6 +276,52 @@ footer img:hover{
     
 } 
 
+@media screen and (max-width: 550px){
+    
+    .nosotros{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        flex-wrap: wrap;
+        
+        
+    }
+    .nosotros .contenedor-parrafo p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .nosotros .contenedor-parrafo h3{
+        font-size: 25px;
+    }
+
+    .nosotros .contenedor-parrafo,
+  .nosotros .contenedor-imagen {
+    width: 100% ;
+  }
+
+  .servicios .contenedor-parrafo p{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .servicios .contenedor-parrafo h3{
+    font-size: 25px;
+  }
+  .servicios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;   
+}
+.servicios .contenedor-parrafo,
+  .contenedor-imagen {
+    width: 100%;
+    
+  }
+}
 
 
 
