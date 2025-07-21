@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+h3, p {
+    margin: 0;
+  }
+
 header img{
     width: 100px;
     height: 80px;
@@ -39,6 +43,7 @@ header img{
 .nosotros .contenedor-img img{
 width: 100%;
 display: block;
+margin-bottom: 0;
 }
 
 
@@ -59,12 +64,16 @@ display: block;
     flex-wrap: wrap;
     padding: 20px;
     background-color: #C83F12;
+    gap: 20px;
 }
 
 .nosotros div{
     width: 50%;
 }
-
+.nosotros .contenedor-parrafo,
+.nosotros .contenedor-img {
+    margin: 0; /* importante */
+}
 .nosotros .contenedor-img{
     width: 500px;
     position: relative;  /* ✅ evita que el texto se salga */
@@ -91,6 +100,7 @@ display: block;
     flex-direction: row-reverse;
     padding: 20px;
     background-color: #C83F12;
+    gap: 20px;
 }
 .servicios .contenedor-parrafo{
     text-align: center;
@@ -106,6 +116,7 @@ display: block;
 .servicios .contenedor-img img{
     width: 100%;
     display: block;
+    margin-bottom: 0;
 }
 
 .servicios .contenedor-img{
