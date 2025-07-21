@@ -192,6 +192,7 @@ margin-bottom: 0;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px;
+    gap: 20px; /*Axel el gap se usa con flexbox para separar y acordate del with 100% adapte al contenedor */
 }
 
 .contacto .contenedor-contacto .contenedor-mapa iframe{
@@ -295,17 +296,16 @@ footer img:hover{
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
         flex-wrap: wrap;
+        gap: 20px;
         
         
         
     }
     .nosotros .contenedor-parrafo p{
         font-size: 20px;
-        padding-bottom: 10px;
+        
     }
     
     .nosotros .contenedor-parrafo h3{
@@ -319,7 +319,6 @@ footer img:hover{
 
   .servicios .contenedor-parrafo p{
     font-size: 20px;
-    padding-bottom: 10px;
   }
 
   .servicios .contenedor-parrafo h3{
@@ -329,16 +328,17 @@ footer img:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-wrap: wrap;   
+    padding: 20px;
+    flex-wrap: wrap;  
+    gap: 20px; 
 }
 .servicios > div,
   .servicios .contenedor-img {
     width: 100%;
     
   }
+
+  
 }
 
 
