@@ -5,25 +5,35 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h3, p {
-    margin: 0;
-  }
-
-header img{
+.logo{
     width: 100px;
     height: 80px;
 }
-.color-fondo{
-    background-color: #8A0000;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: firebrick;
 }
-.nav-link{
-    font-weight: 100;
-    font-size: 20px;
-    color: #F8F5E9 !important;
+
+header .nav .nav-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+header .nav .nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.abrir-menu, .cerrar-menu{
+    display: none;
 }
 
 .hero{
-    height: calc(100vh - 96px);
+    height: calc(100vh - 100px);
     background-image: url(../img/corte-carne.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +49,7 @@ header img{
     color: #F8F5E9;
     font-size: 50px;
 }
+
 
 .nosotros .contenedor-img img{
 width: 100%;
@@ -251,9 +262,7 @@ footer ul{
     flex-wrap: wrap;
     gap: 20px;
 }
-footer ul li{ 
-    
-}
+
 
 footer p{
     text-align: center;
@@ -291,6 +300,54 @@ footer img:hover{
 } 
 
 @media screen and (max-width: 550px){
+
+    .abrir-menu, .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 25px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu{
+        color: black;
+    }
+
+    .cerrar-menu{
+        color: aliceblue;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        padding: 10px;
+        z-index: 9999;
+    }
+
+    .nav.visible{ /*Axel aca es una combinacion de clases un elemento html tiene dos clases*/
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+    header .nav .nav-list li a{
+        color: aliceblue;
+    }
     
     .nosotros{
         display: flex;
