@@ -46,10 +46,19 @@ header .nav .nav-list li a{
 }
 
 .hero h1{
-    color: #F8F5E9;
-    font-size: 50px;
+    color: aliceblue;
+    text-align: center; 
+    font-weight: normal;
+    font-size: 40px;
+    border: 2px solid aliceblue;
+    padding: 10px;
 }
 
+.hero h3{
+    margin-top: 10px;
+    font-size: 25px;
+    color: aliceblue;
+}
 
 .nosotros .contenedor-img img{
 width: 100%;
