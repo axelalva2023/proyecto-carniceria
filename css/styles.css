@@ -67,8 +67,10 @@ margin-bottom: 0;
 }
 
 
-.nosotros .contenedor-parrafo{
+.nosotros .contenedor-parrafo h3{
+    align-self: center; /* Centra solo el h3 horizontalmente */
     text-align: center;
+
 }
 .nosotros .contenedor-parrafo p{
     font-size: 25px;
@@ -122,9 +124,11 @@ margin-bottom: 0;
     background-color: #C83F12;
     gap: 20px;
 }
-.servicios .contenedor-parrafo{
+.servicios .contenedor-parrafo h3{
+    align-self: center; /* Centra solo el h3 horizontalmente */
     text-align: center;
 }
+
 .servicios .contenedor-parrafo p{
     font-size: 25px;
 }
